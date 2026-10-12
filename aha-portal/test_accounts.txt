@@ -1,0 +1,15 @@
+TEST ACCOUNTS (synthetic, demo only, do not commit)
+
+staff    Dr. Amina Bello        amina.bello@ahademo.test             Staff@123
+staff    Dr. Chinedu Okafor     chinedu.okafor@ahademo.test          Staff@123
+staff    Nurse Funmi Adeyemi    funmi.adeyemi@ahademo.test           Staff@123
+patient  Tunde Bakare           tunde.bakare@ahademo.test            Patient@123
+patient  Ngozi Eze              ngozi.eze@ahademo.test               Patient@123
+patient  Ibrahim Musa           ibrahim.musa@ahademo.test            Patient@123
+patient  Blessing Okon          blessing.okon@ahademo.test           Patient@123
+patient  Emeka Nwosu            emeka.nwosu@ahademo.test             Patient@123
+patient  Halima Abubakar        halima.abubakar@ahademo.test         Patient@123
+patient  Seun Ogunleye          seun.ogunleye@ahademo.test           Patient@123
+patient  Grace Ekanem           grace.ekanem@ahademo.test            Patient@123
+patient  Yusuf Danjuma          yusuf.danjuma@ahademo.test           Patient@123
+patient  Chiamaka Obi           chiamaka.obi@ahademo.test            Patient@123
