@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  aha-medic-db:
+    image: postgres:15
+    container_name: 'aha_medic_api_db'
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: aha_medic_api_db_pgadmin
+    ports:
+      - "8888:80"
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
+    restart: always
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+
+
+
+
+volumes:
+  pgdata:
+  pgadmin_data:
