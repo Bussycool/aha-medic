@@ -9,6 +9,7 @@ from alembic import context
 from database_config import DATABASE_URL, Base
 from modules.users.models.user_model import User
 from modules.records.models.record_model import Record
+from modules.appointments.models.appointment_model import Appointment
 
 load_dotenv(override=True)
 
